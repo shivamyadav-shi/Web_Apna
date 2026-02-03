@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+}
+/* highest specificity */
+#greet{
+    color: red;
+}
+.myClass{
+    color: pink;
+}
+div p{
+    color: green;
+}
+/* Highest specificity */
+.para{
+    color: pink;
+}
+p{
+    color: greenyellow;
+}
+.greetdiv .greet{
+    background-color: black;
+}
+div.greetdiv .greet{
+    background-color: pink;
+}
+/* Highest specificity due to cascading*/
+.greetdiv p.greet{
+    background-color: yellow;
+}
