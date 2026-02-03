@@ -48,3 +48,42 @@ div[id="myId"] p{
     color: green;
 }
 /* #myId directly also can use */
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    color: green;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+    font-weight: 800;
+    color: red;
+}
+div:nth-of-type(n){
+    background-color: antiquewhite;
+}
+h1::first-letter{
+    color: green;
+    font-size: larger;
+}
+p::first-line{
+    color: hotpink;
+}
+p::selection{
+    background-color: yellowgreen;
+}
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
