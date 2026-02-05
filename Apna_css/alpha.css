@@ -1,0 +1,72 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #ff000080;
+    margin-top: 10%;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+div:hover{
+    /* background-color: black;
+   transition: 10s 1s;
+   border-radius: 50%;
+   transition-timing-function: cubic-bezier(); */
+   margin-top: 400px;
+}
+/* #opacity{
+    background-color: yellowgreen;
+    opacity: 0.5;
+} */
+section{
+    margin-top: 100px;
+    
+}
+/* for sec div part */
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+/* transform rotate */
+#one{
+    transform: rotate(90deg);
+}
+#two{
+    transform: scalex( 2);
+    /* transform: scaleY(2); */
+    /* transform: scale(1, 0.5); */
+}
+#three{
+    transform: translate(100px,100px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translatex(150px);
+}
+#shadow{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 190px auto;
+    box-shadow: 50px 2px 10px green;
+}
+#bg{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    margin: 100px auto;
+    background-image: url("bac.jpg");
+    background-size: contain;
+}
