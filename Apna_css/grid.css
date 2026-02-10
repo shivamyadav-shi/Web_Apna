@@ -3,7 +3,7 @@
     height: 300px;
     background-color: gray;
     border: 2px solid black;
-    display: grid;
+    display: inline-grid;
      text-align: center;
      /* grid-template-rows: 100PX 100px 100PX 100PX;
      grid-template-columns: 100PX 100PX 100PX 100px 100PX 100PX; */

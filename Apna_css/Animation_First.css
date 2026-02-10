@@ -1,0 +1,22 @@
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: #6ea355;
+
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+@keyframes myAnimation{
+    from {
+        font-size: 10px;
+        background-color: grey;
+    }
+    to{
+        font-size: 100px;
+        background-color: paleturquoise;
+    }
+}
