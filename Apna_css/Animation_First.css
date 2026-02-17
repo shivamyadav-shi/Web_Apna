@@ -3,14 +3,15 @@
     width: 400px;
     background-color: #6ea355;
 
-    animation-name: myAnimation;
+    /* animation-name: myColAnimation;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-delay: 0s;
-    animation-iteration-count: 3;
-    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: mywidAnimation 5s ease-in-out 1s infinite normal;
 }
-@keyframes myAnimation{
+/* @keyframes myAnimation{
     from {
         font-size: 10px;
         background-color: grey;
@@ -18,5 +19,26 @@
     to{
         font-size: 100px;
         background-color: paleturquoise;
+    }
+} */
+/* @keyframes myColAnimation{
+    from {
+        font-size: 10px;
+        background-color: grey;
+    }
+    to{
+        font-size: 100px;
+        background-color: paleturquoise;
+    }
+} */
+@keyframes mywidAnimation{
+    from {
+        /* font-size: 10px; */
+        background-color: grey;
+    }
+    to{
+        /* font-size: 100px; */
+        background-color: paleturquoise;
+        border-radius: 50%;
     }
 }
