@@ -11,6 +11,13 @@
     animation-direction: reverse; */
     animation: mywidAnimation 5s ease-in-out 1s infinite normal;
 }
+.box2{
+     height: 300px;
+    width: 400px;
+    background-color: #a36b55;
+    animation: myCOLAnimation 5s ease-in-out 1s infinite normal;
+
+}
 /* @keyframes myAnimation{
     from {
         font-size: 10px;
@@ -40,5 +47,16 @@
         /* font-size: 100px; */
         background-color: paleturquoise;
         border-radius: 50%;
+    }
+}
+@keyframes myCOLAnimation{
+    0%{
+        background-color: pink;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
     }
 }
