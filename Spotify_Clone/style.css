@@ -190,12 +190,23 @@ margin-left: 0.75rem;
 }
 .album{
     width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 2rem;
 }
 /* .playback-bar{
     width: 50%;
 } */
 .controller{
     width: 25%;
+    height: 1.2rem;
+    padding: 0%;
+}
+.controller img{
+    height: 1rem;
+    padding-left: 1rem;
+    width: 1.2rem;
 }
 .player-control-icon{
     height: 1rem;
@@ -228,6 +239,11 @@ margin-left: 0.75rem;
     cursor: pointer;
 
 }
+.pro-bar{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 .progress-bar::-webkit-slider-runnable-track{
     background-color: #ddd;
     border-radius: 100px;
@@ -240,4 +256,34 @@ margin-left: 0.75rem;
     background-color: #1bd760;
     border-radius: 100px;
     margin-top: -6px;
+}
+.album-bar{
+    display: flex;
+    height: 2rem;
+    justify-content: center ;
+    align-items: baseline;
+    margin-right: 1.5rem;
+}
+.album-bar h4{
+    padding-left:1rem ;
+    /* padding-bottom: 0px; */
+}
+.album img{
+    height: 1rem;
+}
+.album-bar-2{
+    padding-right: 2rem;
+    height: 1rem;
+    padding-bottom: 0px ;
+}
+.album-bar-2 img{
+    height: 1rem;
+    width: 1.5rem;
+    
+}
+.cont-panel{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    padding-bottom: 0% ;
 }
