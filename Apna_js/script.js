@@ -19,4 +19,8 @@ console.log(a++);
 console.log(++a);
 console.log(--a);
 console.log(a--);
-console.log(18>17)
+console.log(18>17);
+console.log(18==19);
+console.log(18!=18);
+console.log("123"==123);
+console.log("123"===123);
