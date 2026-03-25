@@ -56,5 +56,11 @@ if(an>bn){
         console.log(cn+" is the greatest one");
     }
 }
-
+let l1=prompt("enter your string 1");
+let l2=prompt("enter your string 2");
+if((l1[l1.length - 1]) === l2[l2.length -1]){
+    console.log("Have the same ending alphabet");
+} else{
+    console.log("dont have the same ending alphabet");
+}
 
