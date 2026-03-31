@@ -64,3 +64,8 @@ if((l1[l1.length - 1]) === l2[l2.length -1]){
     console.log("dont have the same ending alphabet");
 }
 
+if((l1%10)===(l2%10)){
+    console.log("Have the same ending alphabet");
+}else{
+    console.log("dont have the same ending alphabet");
+}
