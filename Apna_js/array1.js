@@ -46,3 +46,69 @@ console.log(colors);
 
 let color=colors.slice(1,3,"white","magenta","skyblue");
 console.log(color);
+
+for(let i=1;i<=5;i++){
+    console.log(i);
+}
+let arrayy=[1,2,3,4,5,6,7,8,9];
+arrayy.splice(0);
+
+// Loops
+
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
+
+for(let o=1; o<=50;o++){
+    if(o%2==0){
+        console.log(" ");
+    }
+    else{
+        console.log(o);
+    }
+}
+
+for(let o=1; o<=50;o++){
+    if(o%2==0){
+        console.log("even:",o);
+    }
+    else{
+        console.log("");
+    }
+}
+
+for(let i=3;i<=30;i=i+3){
+    console.log(i);
+}
+
+// let n=prompt("enter your number");
+// n=parseInt(n);
+// for(let i=n;i<=n*10;i=i+n){
+//     console.log(i);
+// }
+
+let ii=1;
+while(ii<=5){
+    console.log(ii);
+    ii++;
+}
+
+
+
+let fruits=['mango','apple', 'banana','litchi','orange'];
+for(let i=0;i<fruits.length;i++){
+    console.log(i,fruits[i]);
+}
+
+let superHeroes = [["ironman","superman","thor"],["spiderman","wonder woman","flash"]];
+for(let i=0;i<superHeroes.length;i++){
+    for(let j=0;j<superHeroes[i].length;j++){
+        console.log(superHeroes[i][j]);
+    }
+}
+const favMov="avatar";
+let guess=prompt("My favourite movie");
+while(guess!= favMov && guess!= "quit"){
+    console.log("wrong");
+    guess=prompt("guess again");
+}
