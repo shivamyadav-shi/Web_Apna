@@ -1,0 +1,62 @@
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: #6ea355;
+
+    /* animation-name: myColAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: mywidAnimation 5s ease-in-out 1s infinite normal;
+}
+.box2{
+     height: 300px;
+    width: 400px;
+    background-color: #a36b55;
+    animation: myCOLAnimation 5s ease-in-out 1s infinite normal;
+
+}
+/* @keyframes myAnimation{
+    from {
+        font-size: 10px;
+        background-color: grey;
+    }
+    to{
+        font-size: 100px;
+        background-color: paleturquoise;
+    }
+} */
+/* @keyframes myColAnimation{
+    from {
+        font-size: 10px;
+        background-color: grey;
+    }
+    to{
+        font-size: 100px;
+        background-color: paleturquoise;
+    }
+} */
+@keyframes mywidAnimation{
+    from {
+        /* font-size: 10px; */
+        background-color: grey;
+    }
+    to{
+        /* font-size: 100px; */
+        background-color: paleturquoise;
+        border-radius: 50%;
+    }
+}
+@keyframes myCOLAnimation{
+    0%{
+        background-color: pink;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
