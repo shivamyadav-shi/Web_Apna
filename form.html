@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action">
+        <input >
+        Username
+        <input type="text" placeholder="Enter your username">
+        <br>
+        Password
+        <input type="password">
+        <br>
+        Email
+        <input type="email">
+        <br>
+        Number
+        <input type="number">
+        <br>
+        Time
+        <input type="time">
+        <br>
+        Date
+        <input type="date">
+        <input type="color">
+        <input type="textarea">
+        <Command>cnzbcn</Command>
+        <label>
+            Username
+            <input type="text" placeholder="label:Enter Username">
+        </label>
+
+        <!-- Classical Approach -->
+         <div>
+        <label for="username">Enter your Username:</label>
+        <input type="text" placeholder="username" id="username" name="username">
+        </div>
+        <div>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter password" id="password" name="pass">
+        </div>
+        <div>
+        <label for="age">Enter your age:</label>
+        <input type="number" placeholder="Enter your age" id="age">
+        </div>
+        <button>Submit</button>   <!-- always perform submit in form -->
+        <button type="submit"></button>
+        <button type="button">normal button</button>
+        <button type="reset">reset button</button>
+        <input type="button" value="click me">
+        <input type="submit">
+    </form>
+    <button>NORMAL BUTTON</button>
+    <form action="https://www.google.com/search">
+    <input type="text" name="q" >
+    <button>Submit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+    <input type="text" name="search_query">
+    <button>Search</button>
+    </form>
+    <form>
+    <input type="checkbox" name="age" id="age" checked>
+    <label for="age">I am 18</label>
+    
+    <input type="radio" id="apple" name="fruit" value="apple">
+    <label for="apple">apple</label>
+    <input type="radio" id="mango" name="fruit" value="mango">
+    <label for="mango">mango</label>
+    <input type="radio" id="banana" name="fruit" value="banana">
+    <label for="banana">banana</label>
+
+    <div>
+        choose your subject
+    <input type="checkbox" name="subject" id="maths" value="maths" checked>
+    <label for="math">maths</label>
+    <input type="checkbox" name="subject" id="physics"  value="physics" checked>
+    <label for="physics">physics</label>
+    <input type="checkbox" name="subject" id="chemistry" value="chemistry" checked>
+    <label for="chemistry">chemistry</label>
+    <input type="checkbox" name="subject" id="english" value="english" checked>
+    <label for="english">english</label>
+
+    </div>
+    <button>Submit</button>
+    </form>
+    <div>
+        Choose Your Pofession:
+        <select name="profession" id="profession">
+            <option>select your option</option>
+            <option value="student">Student</option>
+            <option value="dev" selected>Developer</option>
+        </select>
+    </div>
+    <form>
+    <div>
+        <label for="volume">volume</label>
+        <input type="range" min="0" max="1000" name="vol" step="20" value="80">
+        <button>submit</button>
+    </div>
+    <label for="feedback" >feedback</label>
+    <textarea id="feedback" placeholder="provide your valuable feedback" name="feedback" rows="10" cols="10"></textarea>
+    </form>
+</body>
+</html>
